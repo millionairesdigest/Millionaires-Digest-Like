@@ -1,0 +1,36 @@
+/* Button */
+.comment .wl-like {
+    margin-left: 0.5em;
+}
+
+/* Button counter */
+.type-post .wl-like span,
+.comment .wl-like span,
+#bbpress-forums .wl-like span {
+    display: inline-block;
+    padding: 0 3px;
+    margin-left: 0.3em;
+    border: 1px solid;
+    font-size: 90%;
+    line-height: 1.1em;
+}
+#buddypress a.bp-primary-action.wl-like span {
+    margin-left: calc(0.25em + 2px);
+}
+
+/* List */
+.wl-list {
+    font-size: 90%;
+}
+.type-post .wl-list {
+    margin-bottom: 0;
+}
+.type-post .wl-list + p {
+    margin-top: 0;
+}
+#buddypress .activity-list li.mini .wl-list {
+    font-size: 100%;
+}
+.wl-list:empty {
+    display: none;
+}
