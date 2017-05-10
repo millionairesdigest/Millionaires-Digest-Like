@@ -4,7 +4,7 @@
  * Plugin Name: Like And Who Likes
  * Author: Anton Chernov
  * Author URI: http://pcnotes.ru
- * Version: 1.3.0
+ * Version: 1.3.1
  * Description: 'Like' button and 'Who Likes' list for WordPress, BuddyPress and BBPress.
  * Text Domain: like-and-who-likes
  */

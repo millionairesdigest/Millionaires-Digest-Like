@@ -12,7 +12,7 @@ jQuery(document).ready(function ($) {
 
         button.addClass('loading');
 
-        $.post(ajaxurl, {action: 'like_and_who_likes', type: type, component: component, id: id}, function (data) {
+        $.post(who_likes.ajax_url, {action: 'like_and_who_likes', type: type, component: component, id: id}, function (data) {
             if (data) {
                 button.replaceWith(data.button);
                 list.replaceWith(data.list);

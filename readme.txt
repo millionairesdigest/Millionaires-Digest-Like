@@ -3,7 +3,7 @@ Contributors: Atonyk
 Tags: like, vote, rate, social, wordpress, buddypress, bbpress
 Requires at least: 4.6
 Tested up to: 4.7.4
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,6 +48,10 @@ Yes, there are the CSS classes:
 2. BuddyPress activity
 
 == Changelog ==
+
+= 1.3.1 =
+* Fixed a bug caused uninstallation problems when BuddyPress was not installed
+* Fixed a bug that was preventing the like button from working in Wordpress blogs if BuddyPress was not installed
 
 = 1.3.0 =
 * Added the settings page to be able to enable/disable the likes in Wordpress, BuddyPress and BBPress

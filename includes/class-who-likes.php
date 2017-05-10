@@ -183,6 +183,7 @@ class Who_Likes {
 
 	public function add_assets() {
 		wp_enqueue_script( 'like-and-who-likes', plugin_dir_url( __DIR__ ) . '/js/like-and-who-likes.js', [ 'jquery' ] );
+		wp_localize_script( 'like-and-who-likes', 'who_likes', [ 'ajax_url' => admin_url( 'admin-ajax.php' ) ] );
 		wp_enqueue_style( 'like-and-who-likes', plugin_dir_url( __DIR__ ) . '/css/like-and-who-likes.css' );
 	}
 
@@ -325,7 +326,10 @@ class Who_Likes {
 	}
 
 	public static function uninstall() {
-		bp_activity_delete_meta( 0, self::META_KEY, '', true );
+		if ( function_exists( 'bp_activity_delete_meta' ) ) {
+			bp_activity_delete_meta( 0, self::META_KEY, '', true );
+		}
+
 		delete_metadata( 'post', 0, self::META_KEY, '', true );
 		delete_metadata( 'comment', 0, self::META_KEY, '', true );
 	}
