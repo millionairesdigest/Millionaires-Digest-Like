@@ -9,7 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Give users the ability to make their profile private and hide themselves from the member directory with special thanks and all credits going to Antonyk for the original plugin.
+Give users the ability to like posts types, comments, etc. set by the Founder & CEO
 
 == Installation ==
 
