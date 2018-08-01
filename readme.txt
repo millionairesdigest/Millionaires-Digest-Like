@@ -9,7 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Give users the ability to like posts types, comments, etc. set by the Founder & CEO
+Give users the ability to like posts types, comments, etc. set by the Founder & CEO with special thanks and all credits going to Antonyk for the original plugin.
 
 == Installation ==
 
