@@ -1,13 +1,13 @@
 <?php
 
-/**
- * Plugin Name: Like And Who Likes
- * Author: Anton Chernov
- * Author URI: http://pcnotes.ru
- * Version: 1.3.1
- * Description: 'Like' button and 'Who Likes' list for WordPress, BuddyPress and BBPress.
- * Text Domain: like-and-who-likes
- */
+/*
+Plugin Name: Millionaire's Digest Like
+Description: Give users the ability to like posts types, comments, etc. set by the Founder & CEO.
+Version: 1.0.0
+Author: K&L (Founder of the Millionaire's Digest)
+Author URI: https://millionairedigest.com/
+*/
+
 // Class autoloading
 function who_likes_autoload( $class ) {
 	$file = 'class-' . str_replace( '_', '-', strtolower( $class ) ) . '.php';
