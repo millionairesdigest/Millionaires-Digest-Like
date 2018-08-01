@@ -1,6 +1,6 @@
-=== Millionaire's Digest Extended Profile Privacy ===
+=== Millionaire's Digest Like ===
 Contributors: K&L
-Tags: Millionaire's Digest, Profile, Privacy
+Tags: Millionaire's Digest, Like, Unlike
 Requires at least: 4.5.7
 Tested up to: 4.9.1
 Stable tag: 1.0.0
