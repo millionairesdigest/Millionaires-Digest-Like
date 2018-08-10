@@ -63,7 +63,7 @@ class Who_Likes_Settings {
 	}
 
 	public function admin_menu() {
-		add_options_page( 'Millionaire\'s Digest Like', 'Millionaire\'s Digest Like', 'manage_options', self::SETTINGS_PAGE, [ $this, 'settings_page' ] );
+		add_options_page( 'Like Button', 'Like Button', 'manage_options', self::SETTINGS_PAGE, [ $this, 'settings_page' ] );
 	}
 
 	public function settings_init() {
